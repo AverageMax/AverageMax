@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="./image.png" alt="Daniel Lin Banner" width="100%" />
-  <br/>
   <a href="https://git.io/typing-svg">
     <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=00E5FF&center=true&vCenter=true&width=800&lines=Software+Engineer+%7C+Systems+Architect;Architecting+Real-time+3D+Physics+Engines;Compiler+%26+Custom+DSL+Developer;Socket.io+%26+WebRTC+Specialist;Building+Offline-first+PWAs" alt="Typing SVG" />
   </a>
