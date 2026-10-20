@@ -1,9 +1,9 @@
 <div align="center">
   <a href="https://git.io/typing-svg">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=00E5FF&center=true&vCenter=true&width=800&lines=Software+Engineer+%7C+Systems+Architect;Architecting+Real-time+3D+Physics+Engines;Compiler+%26+Custom+DSL+Developer;Socket.io+%26+WebRTC+Specialist;Building+Offline-first+PWAs" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=25&pause=1000&color=00E5FF&center=true&vCenter=true&width=800&lines=Full-Stack+Engineer;Architecting+Real-time+3D+Physics+Engines;Compiler+%26+Custom+DSL+Developer;Socket.io+%26+WebRTC+Specialist;Building+Offline-first+PWAs" alt="Typing SVG" />
   </a>
   <br/>
-<p align="center"><a href="https://www.linkedin.com/in/ali-haggag7/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a><a href="mailto:ali.haggag2005@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a><a href="https://alihaggag.me/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=next.js&logoColor=white"/></a><a href="https://alihaggag.me/Ali_Haggag_CV.pdf"><img src="https://img.shields.io/badge/Resume-00C853?style=for-the-badge&logo=google-drive&logoColor=white"/></a></p>
+<p align="center"><a href="https://www.linkedin.com/in/daniel-lin7493326/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a><a href="mailto:daniellin871@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a><a href="https://daniel-lin.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge&logo=next.js&logoColor=white"/></a><a href="https://daniel-lin.vercel.app/Daniel Lin.pdf"><img src="https://img.shields.io/badge/Resume-00C853?style=for-the-badge&logo=google-drive&logoColor=white"/></a></p>
 </div>
 <br/>
 
@@ -11,23 +11,23 @@
 
 > **"Architecting high-performance, real-time web applications, custom compilers, and deterministic multiplayer game engines with clean code."**
 
-I'm **Daniel Lin**, a Full-Stack Engineer focused on **System Design, Performance Optimization, and Security Hardening.** I specialize in building complex backends, custom language parsers, and low-latency real-time synchronization layers.
+I'm a Full-Stack Engineer focused on **System Design, Performance Optimization, and Security Hardening.** I specialize in building complex backends, custom language parsers, and low-latency real-time synchronization layers.
 
 ---
 
 #### 🌟 Featured Engineering Builds
 
-*   🤖 **[Logic Arena](https://github.com/Ali-Haggag7/logic-arena) — Competitive Robot Battle Simulator** `v3.6.5`
+*   🤖 **[Logic Arena](https://github.com/AverageMax/logic-arena) — Competitive Robot Battle Simulator** `v3.6.5`
     *   *Compiler & Sandbox:* Engineered **AliScript v3** (Lexer → AST → sandboxed evaluator, no `eval()`) with a deterministic 2,000-ops/tick TLE quota — fair execution limits regardless of hardware.
     *   *Real-time Sync:* 20 TPS server physics engine with client-side `lerp` interpolation to 60 FPS; delta diffing cuts WebSocket payload size by ~80%.
     *   *Tech Stack:* Next.js 16, NestJS 11, React Three Fiber (Three.js), Socket.io, Redis, PostgreSQL, Prisma, Docker + Nginx, DigitalOcean.
 
-*   🚀 **[Flurry Super App](https://github.com/Ali-Haggag7/Flurry-Super-App) — Real-time Social Super App** `v2.0`
+*   🚀 **[Flurry Super App](https://github.com/AverageMax/Flurry-Super-App) — Real-time Social Super App** `v2.0`
     *   *Communication:* WebRTC P2P audio/video via a custom Socket.io signaling server (<50ms latency).
     *   *Resilience:* Offline-first PWA — IndexedDB action queue synced through Inngest durable functions and a Workbox service worker.
     *   *Tech Stack:* WebRTC, Socket.io, Gemini AI, PWA, React, MongoDB, i18next.
 
-*   🏗️ **[CS Arena Platform](https://github.com/Ali-Haggag7/CS-Arena) — Developer Ecosystem**
+*   🏗️ **[CS Arena Platform](https://github.com/AverageMax/CS-Arena) — Developer Ecosystem**
     *   *State Engine:* Resolved cascading UI filter race conditions using `useTransition` and a URL-first state engine on Next.js 16 Server Components.
     *   *Tech Stack:* Next.js 16, Sanity CMS, NextAuth, Sentry, Resend, Framer Motion.
 
@@ -35,7 +35,7 @@ I'm **Daniel Lin**, a Full-Stack Engineer focused on **System Design, Performanc
 
 #### 🩹 Notable Engineering Incidents
 
-*A few real production issues I've diagnosed and fixed — documented in full on my [portfolio](https://alihaggag.me).*
+*A few real production issues I've diagnosed and fixed — documented in full on my [portfolio](https://daniel-lin.vercel.app).*
 
 *   **The Ghost Match Massacre** *(Logic Arena, WebSocket/NestJS)* — Disconnected players' matches kept running server-side, pinning CPU at 100%. Fixed by tying match lifecycle to live client count.
 *   **Operator Precedence Disaster** *(AliScript compiler)* — `2 + 3 * 4` evaluated to `20`. The expression parser had no precedence tower. Fixed by splitting addition/multiplication into separate parse levels.
